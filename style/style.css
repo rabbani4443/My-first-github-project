@@ -3,6 +3,36 @@
     padding: 0px;
 }
 .test{
-    color: blue;
+    color: wheat;
     cursor:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+    background-color: black;
+    text-align: center;
+    margin: 20px 0px;
+    padding:10px;
+}
+.box{
+    padding:20px;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: row-reverse;
+    border: 3px solid aqua;
 }
